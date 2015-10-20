@@ -1,2 +1,3 @@
-# blankSite_5_2015
-This is the blank site with grunt file and all folders in place to start creating web sites.  This folder structure has: gruntfile and jsonpackage: watch, compass, jshint, connect, uglify html: Reload, juery, scripts, and css connected
+This is the midterm project I created for CAS222 at Portland Community College.
+The theme for the site is the history of space exploration by humans.
+HTML:5,CSS3,SASS,Javascript,Jquery,JSON,Grunt,Bower,Node.js. Javascript file found in _/components/js
