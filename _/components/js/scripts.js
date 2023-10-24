@@ -377,7 +377,7 @@ http://codepen.io/jackrugile/
 			for (var key in data) {
 				if (data.hasOwnProperty(key)) {
 					output += '<div class="spaceStationFlex">';
-					output += '<img src="'+ data[key].picutre + '">';
+					output += '<img src="'+ data[key].picture + '">';
 					output += '<div class="spaceStationFlexColumn">';
 					output += '<h2 class="spaceStationsH2">' + data[key].unmannedTitle + '</h2>';
 					output += '<p class="spaceStationsP">' + data[key].info1 + '</p>';
@@ -402,7 +402,7 @@ http://codepen.io/jackrugile/
 			for (var key in data) {
 				if (data.hasOwnProperty(key)) {
 					output += '<div class="spaceStationFlex">';
-					output += '<img src="'+ data[key].picutre + '">';
+					output += '<img src="'+ data[key].picture + '">';
 					output += '<div class="spaceStationFlexColumn">';
 					output += '<h2 class="spaceStationsH2">' + data[key].spaceStationTitle + '</h2>';
 					output += '<p class="spaceStationsP">' + data[key].info1 + '</p>';
@@ -427,7 +427,7 @@ http://codepen.io/jackrugile/
 			for (var key in data) {
 				if (data.hasOwnProperty(key)) {
 					output += '<div class="spaceStationFlex">';
-					output += '<img src="'+ data[key].picutre + '">';
+					output += '<img src="'+ data[key].picture + '">';
 					output += '<div class="spaceStationFlexColumn">';
 					output += '<h2 class="spaceStationsH2">' + data[key].telescopesTitle + '</h2>';
 					output += '<p class="spaceStationsP">' + data[key].info1 + '</p>';
