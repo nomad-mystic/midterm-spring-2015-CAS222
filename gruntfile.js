@@ -16,13 +16,11 @@ module.exports = function(grunt){
 					base: '.'
 				}//end options
 			}//end server
-		}, //end the connect
+		}, //end connect
 		uglify: {
 			my_target:{
 				files: {
-					'_/js/scripts.js': ['_/components/js/scripts.js'] //,
-					// '_/js/testCanvas.js': ['_/components/js/testCanvas.js']
-					
+					'_/js/scripts.js': ['_/components/js/scripts.js']
 				}//end files 
 			}//end My Target
 		},//end uglify
@@ -43,13 +41,13 @@ module.exports = function(grunt){
 				} //options
 			} //dev
 		}, //compass
-	    autoperfixer: {
+	    autoprefixer: {
 			dist: {
 				files: {
 					'_/components/sass/*.scss': '_/css/styles.css'
 				}//end files
 			}//end dist 
-		},// end autoperfixer
+		},// end autoprefixer
 		watch: {
 			options: { livereload: true},
 			scripts: {
@@ -69,23 +67,8 @@ module.exports = function(grunt){
 				options: { livereload: true}
 			}//end html
 		}//end watch
-	});//end initCofig
+	});//end initConfig
+
 	grunt.registerTask('test', 'jshint');
 	grunt.registerTask('default', ['connect', 'watch']);
 };// end grunt
-
-
-/*compass: {
-			dist: {
-				options: {
-					sassDir: '_/components/sass/*.scss',
-					cssDir: '_/css/*.css',
-					environment: 'production'
-				}//end options
-			}//end dist
-			/*dev:{
-				options: {
-					sassDir: ''
-				}//end options
-			}//end compass dev
-		},//end compass*/
